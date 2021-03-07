@@ -13,21 +13,21 @@ class OrderViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        navigationItem.hidesBackButton = true
     }
     
 
-    @IBAction func btnLogout(_ sender: UIBarButtonItem) {
-        
-    do {
-      try Auth.auth().signOut()
-        navigationController?.popToRootViewController(animated: true)
-    } catch let signOutError as NSError {
-      print ("Error signing out: %@", signOutError)
-    }
-      
-        
-    }
+//    @IBAction func btnLogout(_ sender: UIBarButtonItem) {
+//
+//    do {
+//      try Auth.auth().signOut()
+//        navigationController?.popToRootViewController(animated: true)
+//    } catch let signOutError as NSError {
+//      print ("Error signing out: %@", signOutError)
+//    }
+//
+//
+//    }
     
 
 }

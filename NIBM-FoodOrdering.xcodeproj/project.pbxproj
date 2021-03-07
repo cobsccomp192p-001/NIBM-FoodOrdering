@@ -17,7 +17,10 @@
 		7440B01825F0B77300F65838 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7440B01425F0B77300F65838 /* RegisterViewController.swift */; };
 		7443469125F15C68003ED230 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7443469025F15C68003ED230 /* OrderViewController.swift */; };
 		7443469425F15DF7003ED230 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7443469325F15DF7003ED230 /* LocationViewController.swift */; };
+		749C33B625F4980300C9E747 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749C33B525F4980300C9E747 /* Constants.swift */; };
 		74B08DD425F0E8350053E08E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B08DD325F0E8350053E08E /* GoogleService-Info.plist */; };
+		74D3B28F25F5160F00A85628 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D3B28E25F5160E00A85628 /* FoodViewController.swift */; };
+		74D3B29225F5190400A85628 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D3B29125F5190400A85628 /* Food.swift */; };
 		C15796832075C34B83BA34D2 /* Pods_NIBM_FoodOrdering.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5FA78290046FFA9441D7E2 /* Pods_NIBM_FoodOrdering.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +37,10 @@
 		7440B01425F0B77300F65838 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		7443469025F15C68003ED230 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		7443469325F15DF7003ED230 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		749C33B525F4980300C9E747 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		74B08DD325F0E8350053E08E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		74D3B28E25F5160E00A85628 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		74D3B29125F5190400A85628 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		83218ABC2EC41B3B11D3730C /* Pods-NIBM-FoodOrdering.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM-FoodOrdering.release.xcconfig"; path = "Target Support Files/Pods-NIBM-FoodOrdering/Pods-NIBM-FoodOrdering.release.xcconfig"; sourceTree = "<group>"; };
 		9D5FA78290046FFA9441D7E2 /* Pods_NIBM_FoodOrdering.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_FoodOrdering.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F737D3561E3C318AA223062E /* Pods-NIBM-FoodOrdering.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM-FoodOrdering.debug.xcconfig"; path = "Target Support Files/Pods-NIBM-FoodOrdering/Pods-NIBM-FoodOrdering.debug.xcconfig"; sourceTree = "<group>"; };
@@ -91,6 +97,7 @@
 				7440AFFE25F0B6A600F65838 /* LaunchScreen.storyboard */,
 				7440B00125F0B6A600F65838 /* Info.plist */,
 				74B08DD325F0E8350053E08E /* GoogleService-Info.plist */,
+				749C33B525F4980300C9E747 /* Constants.swift */,
 			);
 			path = "NIBM-FoodOrdering";
 			sourceTree = "<group>";
@@ -98,6 +105,7 @@
 		7440B00825F0B6B000F65838 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				74D3B29125F5190400A85628 /* Food.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -118,6 +126,7 @@
 				7440B01225F0B77200F65838 /* WelcomeViewController.swift */,
 				7443469025F15C68003ED230 /* OrderViewController.swift */,
 				7443469325F15DF7003ED230 /* LocationViewController.swift */,
+				74D3B28E25F5160E00A85628 /* FoodViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -249,9 +258,12 @@
 				7440B01525F0B77300F65838 /* LoginViewController.swift in Sources */,
 				7440B01625F0B77300F65838 /* WelcomeViewController.swift in Sources */,
 				7440AFF425F0B6A300F65838 /* AppDelegate.swift in Sources */,
+				74D3B28F25F5160F00A85628 /* FoodViewController.swift in Sources */,
 				7440B01825F0B77300F65838 /* RegisterViewController.swift in Sources */,
 				7440AFF625F0B6A300F65838 /* SceneDelegate.swift in Sources */,
+				74D3B29225F5190400A85628 /* Food.swift in Sources */,
 				7443469125F15C68003ED230 /* OrderViewController.swift in Sources */,
+				749C33B625F4980300C9E747 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
