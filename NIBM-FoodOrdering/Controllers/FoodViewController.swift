@@ -8,6 +8,7 @@
 import UIKit
 import Firebase
 
+
 class MyCustomCell: UITableViewCell {
     
     @IBOutlet weak var FoodNameLabel: UILabel!
@@ -26,7 +27,7 @@ class FoodViewController: UIViewController {
         super.viewDidLoad()
         navigationItem.hidesBackButton=true
         foodTableView.dataSource=self
-
+        foodTableView.delegate=self
         loadFood()
     }
     
@@ -72,5 +73,19 @@ extension FoodViewController:UITableViewDataSource{
         return cell
     }
     
+    
+}
+
+extension FoodViewController:UITableViewDelegate{
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let  next = (storyboard?.instantiateViewController(identifier: "FoodDetailViewController") as! FoodDetailViewController)
+        
+        self.navigationController?.pushViewController(next, animated: true)
+        let foo = foods[indexPath.row]
+        next.name=foo.title
+        next.price=foo.uprice
+        next.desc=foo.description
+    }
     
 }
