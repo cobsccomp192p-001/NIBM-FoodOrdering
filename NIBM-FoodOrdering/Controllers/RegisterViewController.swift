@@ -12,9 +12,9 @@ class RegisterViewController: UIViewController {
     
     @IBAction func registerPressed(_ sender: UIButton) {
         
-        if emailTextfield.text!.isEmpty || passwordTextfield.text!.isEmpty || MobileTextField.text!.isEmpty
+        if emailTextfield.text!.isEmpty || passwordTextfsield.text!.isEmpty || MobileTextField.text!.isEmpty
         {
-            AlertMesg(msg: "Enter all fields")
+            AlertMesg(msg: "Enter all fieldss")
         }
         else{
             if let email = emailTextfield.text, let password = passwordTextfield.text{
