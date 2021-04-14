@@ -23,10 +23,11 @@
 		74D3B29225F5190400A85628 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D3B29125F5190400A85628 /* Food.swift */; };
 		74D3B2A225F53FCF00A85628 /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D3B2A125F53FCF00A85628 /* FoodDetailViewController.swift */; };
 		74D3B2A525F5506600A85628 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D3B2A425F5506600A85628 /* AccountViewController.swift */; };
-		C15796832075C34B83BA34D2 /* Pods_NIBM_FoodOrdering.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5FA78290046FFA9441D7E2 /* Pods_NIBM_FoodOrdering.framework */; };
+		EC5FA8B863DDDB290CFEFDE4 /* Pods_NIBM_FoodOrdering.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2559724B5DB49CFD50F2F922 /* Pods_NIBM_FoodOrdering.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2559724B5DB49CFD50F2F922 /* Pods_NIBM_FoodOrdering.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_FoodOrdering.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7440AFF025F0B6A300F65838 /* NIBM-FoodOrdering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NIBM-FoodOrdering.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7440AFF325F0B6A300F65838 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7440AFF525F0B6A300F65838 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,9 +46,8 @@
 		74D3B29125F5190400A85628 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		74D3B2A125F53FCF00A85628 /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
 		74D3B2A425F5506600A85628 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
-		83218ABC2EC41B3B11D3730C /* Pods-NIBM-FoodOrdering.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM-FoodOrdering.release.xcconfig"; path = "Target Support Files/Pods-NIBM-FoodOrdering/Pods-NIBM-FoodOrdering.release.xcconfig"; sourceTree = "<group>"; };
-		9D5FA78290046FFA9441D7E2 /* Pods_NIBM_FoodOrdering.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_FoodOrdering.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F737D3561E3C318AA223062E /* Pods-NIBM-FoodOrdering.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM-FoodOrdering.debug.xcconfig"; path = "Target Support Files/Pods-NIBM-FoodOrdering/Pods-NIBM-FoodOrdering.debug.xcconfig"; sourceTree = "<group>"; };
+		839D79E73887E81853C9C9EB /* Pods-NIBM-FoodOrdering.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM-FoodOrdering.release.xcconfig"; path = "Target Support Files/Pods-NIBM-FoodOrdering/Pods-NIBM-FoodOrdering.release.xcconfig"; sourceTree = "<group>"; };
+		D4FCCD6CEC4F4A4BB40AEB21 /* Pods-NIBM-FoodOrdering.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM-FoodOrdering.debug.xcconfig"; path = "Target Support Files/Pods-NIBM-FoodOrdering/Pods-NIBM-FoodOrdering.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C15796832075C34B83BA34D2 /* Pods_NIBM_FoodOrdering.framework in Frameworks */,
+				EC5FA8B863DDDB290CFEFDE4 /* Pods_NIBM_FoodOrdering.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,10 +65,18 @@
 		129427F6B5641A27DD8F0CF5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F737D3561E3C318AA223062E /* Pods-NIBM-FoodOrdering.debug.xcconfig */,
-				83218ABC2EC41B3B11D3730C /* Pods-NIBM-FoodOrdering.release.xcconfig */,
+				D4FCCD6CEC4F4A4BB40AEB21 /* Pods-NIBM-FoodOrdering.debug.xcconfig */,
+				839D79E73887E81853C9C9EB /* Pods-NIBM-FoodOrdering.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		209BE1C79980617695A3758A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2559724B5DB49CFD50F2F922 /* Pods_NIBM_FoodOrdering.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7440AFE725F0B6A300F65838 = {
@@ -77,7 +85,7 @@
 				7440AFF225F0B6A300F65838 /* NIBM-FoodOrdering */,
 				7440AFF125F0B6A300F65838 /* Products */,
 				129427F6B5641A27DD8F0CF5 /* Pods */,
-				C20D6D5F33C92EF58DE0C5A8 /* Frameworks */,
+				209BE1C79980617695A3758A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,14 +145,6 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		C20D6D5F33C92EF58DE0C5A8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9D5FA78290046FFA9441D7E2 /* Pods_NIBM_FoodOrdering.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,11 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7440B00425F0B6A600F65838 /* Build configuration list for PBXNativeTarget "NIBM-FoodOrdering" */;
 			buildPhases = (
-				E12BDFD76064D850DEA33F36 /* [CP] Check Pods Manifest.lock */,
+				4A9BA270933C9B69315C5632 /* [CP] Check Pods Manifest.lock */,
 				7440AFEC25F0B6A300F65838 /* Sources */,
 				7440AFED25F0B6A300F65838 /* Frameworks */,
 				7440AFEE25F0B6A300F65838 /* Resources */,
-				608A19D6517050C79F38A696 /* [CP] Embed Pods Frameworks */,
+				E351EB20AEAA8209328E0193 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -214,24 +214,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		608A19D6517050C79F38A696 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NIBM-FoodOrdering/Pods-NIBM-FoodOrdering-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NIBM-FoodOrdering/Pods-NIBM-FoodOrdering-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NIBM-FoodOrdering/Pods-NIBM-FoodOrdering-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E12BDFD76064D850DEA33F36 /* [CP] Check Pods Manifest.lock */ = {
+		4A9BA270933C9B69315C5632 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -251,6 +234,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E351EB20AEAA8209328E0193 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NIBM-FoodOrdering/Pods-NIBM-FoodOrdering-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NIBM-FoodOrdering/Pods-NIBM-FoodOrdering-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NIBM-FoodOrdering/Pods-NIBM-FoodOrdering-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -407,7 +407,7 @@
 		};
 		7440B00525F0B6A600F65838 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F737D3561E3C318AA223062E /* Pods-NIBM-FoodOrdering.debug.xcconfig */;
+			baseConfigurationReference = D4FCCD6CEC4F4A4BB40AEB21 /* Pods-NIBM-FoodOrdering.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -426,7 +426,7 @@
 		};
 		7440B00625F0B6A600F65838 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83218ABC2EC41B3B11D3730C /* Pods-NIBM-FoodOrdering.release.xcconfig */;
+			baseConfigurationReference = 839D79E73887E81853C9C9EB /* Pods-NIBM-FoodOrdering.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
